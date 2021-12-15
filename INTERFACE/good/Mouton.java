@@ -3,6 +3,7 @@ public class Mouton extends Animal implements Marcheur {
         super(espece);
 
     }
+    @Override
     public void marcher(){
         System.out.println("je marche");
     }
