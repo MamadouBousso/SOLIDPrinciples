@@ -1,0 +1,42 @@
+package bousso;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TrafficLight {
+
+  private String feux;
+
+  public String getFeux() {
+    return feux;
+  }
+
+  public void setFeux(String feux) {
+    this.feux = feux;
+  }
+
+  
+
+  /**
+     * Cette methode n'est pas fermee pour la modification
+     * S'il y a un autre type feux on est oblige de modifier le code
+     * @param feux permet de lever les barrieres.
+     * @return a string 
+  */
+
+  public String raiseBarrier(String feux) {
+
+    if (feux == "red") {
+      return "up";
+    }
+    if (feux == "green") {
+      return "down";
+    }
+    if (feux == "yellow") {
+      return "middle";
+    }
+    return null;
+
+  }
+
+}
