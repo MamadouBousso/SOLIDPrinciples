@@ -1,0 +1,9 @@
+{
+    "java.checkstyle.configuration": "/google_checks.xml",
+    "cSpell.words": [
+        "coul",
+        "couleur",
+        "espece",
+        "nbrpieds"
+    ]
+}
