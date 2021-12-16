@@ -1,3 +1,5 @@
+package bousso;
+
 abstract class Animal{
 
   private String espece;

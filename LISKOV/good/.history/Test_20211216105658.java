@@ -8,7 +8,7 @@ public class Test {
         animals.add(new Human("humain"));
         
         for(Omnivore march: animals){
-            march.eatmeat();
+            march.eatmeat();;
         }
     }
 }

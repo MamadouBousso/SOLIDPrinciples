@@ -1,3 +1,7 @@
+package bousso;
+
+import src.bousso.Animal;
+
 public class Mouton extends Animal{
     
     public Mouton(String espece){
@@ -13,10 +17,5 @@ public class Mouton extends Animal{
     public void marcher(){
         System.out.println("je marche");
     }
-    /**
-     * This method breaks ISP
-     */
-    public void voler(){
-        System.out.println("je vole");
-    }
+    
 }

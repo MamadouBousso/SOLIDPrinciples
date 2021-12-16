@@ -1,3 +1,4 @@
+package bousso;
 public class Mouton extends Animal{
     
     public Mouton(String espece){
@@ -17,6 +18,6 @@ public class Mouton extends Animal{
      * This method breaks ISP
      */
     public void voler(){
-        System.out.println("je vole");
+        
     }
 }

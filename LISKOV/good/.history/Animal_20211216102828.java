@@ -1,4 +1,4 @@
-abstract class Animal implements Omnivore{
+abstract class Animal implements Rampant,Marcheur,Volaille{
 
     private String espece;
   

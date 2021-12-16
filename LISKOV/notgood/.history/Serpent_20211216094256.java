@@ -1,9 +1,17 @@
-public class Serpent extends Animal implements Rampant {
+public class Serpent {
+
     public Serpent(String espece){
         super(espece);
+        
     }
-    @Override
     public void ramper(){
         System.out.println("je rampe");
     }
+    public void marcher(){
+        
+    }
+    public void voler(){
+        
+    }
+    
 }

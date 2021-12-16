@@ -1,16 +1,17 @@
-public class Serpent {
+package src.bousso;
 
-    public Serpent(String espece){
+public class Human extends Animal{
+
+    public Human(String espece){
         super(espece);
         
     }
-    public void ramper(){
+    public void eatmeat(){
         System.out.println("je rampe");
     }
-    /**
-     * This method breaks ISP
-     */
+    
     public void marcher(){
+        System.out.println("je marche");
         
     }
     /**

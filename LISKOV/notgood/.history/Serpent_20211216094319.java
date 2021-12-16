@@ -7,9 +7,6 @@ public class Serpent {
     public void ramper(){
         System.out.println("je rampe");
     }
-    /**
-     * This method breaks ISP
-     */
     public void marcher(){
         
     }

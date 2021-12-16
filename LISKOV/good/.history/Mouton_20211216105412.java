@@ -1,9 +1,6 @@
 public class Mouton  implements Herbivore {
-    
-    private String espece;
-
     public Mouton(String espece){
-        this.espece = espece;
+        super(espece);
 
     }
     

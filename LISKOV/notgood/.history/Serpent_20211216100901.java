@@ -1,3 +1,5 @@
+package bousso;
+
 public class Serpent {
 
     public Serpent(String espece){
@@ -11,6 +13,7 @@ public class Serpent {
      * This method breaks ISP
      */
     public void marcher(){
+        System.out.println("je marche");
         
     }
     /**

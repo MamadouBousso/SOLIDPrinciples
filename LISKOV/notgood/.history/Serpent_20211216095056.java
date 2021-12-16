@@ -11,6 +11,7 @@ public class Serpent {
      * This method breaks ISP
      */
     public void marcher(){
+        System.out.println("je marche");
         
     }
     /**
